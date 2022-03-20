@@ -6,3 +6,6 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+structopt = "*"
+ffmpeg-next = { git = "https://github.com/zmwangx/rust-ffmpeg"}
+sdl2 = { version = "0.35.2", features = ["image", "gfx"] }
